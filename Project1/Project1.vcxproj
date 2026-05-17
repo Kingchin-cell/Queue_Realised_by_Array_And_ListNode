@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayQueue.h" />
+    <ClInclude Include="LinkQueue.h" />
+    <ClInclude Include="QueueBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrayQueue.cpp" />
+    <ClCompile Include="LinkQueue.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -123,14 +133,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Queue-ListNode.h" />
-    <ClInclude Include="Queue-Array.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Queue_ListNode.cpp" />
-    <ClCompile Include="Queue_Array.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
